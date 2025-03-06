@@ -1,0 +1,115 @@
+html{
+    scroll-behavior: smooth;
+    background-color: red;
+    background: linear-gradient(to right, #e95f52, #DB4537, #8c2b22);
+    color: white;
+}
+/* Styling all text with the custom font */
+h1, h2, h3, h4, h5, h6, p {
+    font-family: 'Agbalumo', sans-serif;
+}
+
+header{
+    background-image: url(../img/SkittlesPageBackground.jpg);
+    height: 90%;
+    padding-top: 8vh;
+    padding-bottom: 11vh;
+}
+
+header h1 {
+    font-size: 15vh;
+    text-align: center;
+    text-shadow: 0.6vh 0.4vh 0 rgba(123, 71, 3, 0.9);
+    text-decoration: underline;
+}
+
+.fact-one{
+    padding-bottom: 9vh;
+    margin-left: 40%;
+}
+
+.fact-one h2{
+    font-size: 8vh;
+    text-shadow: 0.6vh 0.4vh 0 rgba(106, 1, 244, 0.9);
+}
+
+.fact-one p{
+    font-size: 6vh;
+    text-shadow: 0.6vh 0.4vh 0 rgba(180, 168, 6, 0.9);
+}
+
+.fact-one img{
+    margin-right: 80%;
+    width: 35%;
+    height: 35%;
+}
+
+.fact-two{
+    margin-right: 40%;
+}
+
+.fact-two h2{
+    font-size: 8vh;
+    text-shadow: 0.6vh 0.4vh 0 rgba(106, 1, 244, 0.9);
+}
+
+.fact-two p{
+    font-size: 6vh;
+    text-shadow: 0.6vh 0.4vh 0 rgba(5, 255, 51, 0.9);
+}
+
+.fact-three{
+    margin-left: 40%;
+    margin-bottom: 10%;
+}
+
+.fact-three h2{
+    font-size: 8vh;
+    text-shadow: 0.6vh 0.4vh 0 rgba(106, 1, 244, 0.9);
+}
+
+.fact-three p{
+    font-size: 6vh;
+    text-shadow: 0.6vh 0.4vh 0 rgba(5, 5, 255, 0.9);
+}
+
+.fact-three img{
+    width: 55%;
+    height: 55%;
+}
+
+footer {
+    background-image: url(../img/SkittlesBackground2.jpg);
+    background-size: cover;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+footer .contact h2 {
+    font-size: 8vh;
+    color: black;
+    text-shadow: 0.3vh 0.2vh 0 rgba(255, 255, 255, 0.9);;
+}
+
+footer .formInfo {
+    font-family: 'Agbalumo', sans-serif;
+    color: black;
+    text-shadow: 0.3vh 0.2vh 0 rgba(255, 255, 255, 0.9);;
+    font-size: 7vh;
+    margin-left: 55%;
+    margin-bottom: 10%
+}
+footer img{
+    width: 30%;
+    height: 30%;
+}
+
+.contactInfo {
+    display: flex;
+    flex-direction: row;
+    color: black;
+    text-shadow: 0.3vh 0.2vh 0 rgba(255, 255, 255, 0.9);;
+    font-size: 5vh;
+    justify-content: space-between;
+    font-family: 'Agbalumo', sans-serif;
+}
